@@ -314,7 +314,10 @@ nav {
 .logo-footer {
   padding-top: 60px;
   margin-bottom: 20px;
-  display: block;
+  
+}
+.logo-footer a {
+  margin-right: 0;
 }
 .contact-info-footer li:not(last-child) {
   margin-bottom: 9px;

@@ -261,7 +261,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.nav-item {
+.nav-item + .nav-item {
   margin-left: 50px;
 }
 .contact-item {

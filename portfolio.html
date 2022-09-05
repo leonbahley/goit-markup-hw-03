@@ -13,46 +13,40 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css
-
-
-
-"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-
   <body>
     <!-- Header -->
-    <header>
-      <div class="container header-container">
-        <nav>
+    <header class="header">
+      <div class="container header-wrapper">
+        <nav class="nav">
           <a href="index.html" class="logo">Web<span class="black-logo-part">Studio</span></a>
           <ul class="main-nav list">
-            <li><a class="main-nav-link" href="index.html">Студія</a></li>
-            <li>
-              <a class="main-nav-link portfolio-link-active" href="portfolio.html">Портфоліо</a>
+            <li class="nav-item"><a class="nav-link" href="index.html">Студія</a></li>
+            <li class="nav-item">
+              <a class="nav-link portfolio-link-active" href="portfolio.html">Портфоліо</a>
             </li>
-            <li><a class="main-nav-link" href="">Контакти</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contact-info-header list">
+        <ul class="contact-info list">
           <li>
-            <a class="e-mail-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="e-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a class="tel-header" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="contact-item">
+            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
-
     <main>
       <!-- Portfolio -->
       <section class="section">
-        <h1 class="portfolio-main-header">Портфоліо</h1>
         <!-- Filter -->
         <div class="container">
+          <h1 hidden>Портфоліо</h1>
           <ul class="portfolio-buttons list">
             <li><button class="portfolio-button" type="button">Усі</button></li>
             <li><button class="portfolio-button" type="button">Веб-сайти</button></li>
@@ -135,21 +129,21 @@
         <a href="index.html" class="logo logo-footer"
           >Web<span class="white-logo-part">Studio</span></a
         >
-        <address>
-          <ul class="contact-info-footer list">
-            <li>
+        <address class="footer-address">
+          <ul class="list">
+            <li class="contact">
               <a
-                class="street-name"
+                class="street"
                 href="https://goo.gl/maps/KnLdwV8JPAcNRsJJ8"
                 target="_blank"
                 rel="noopener noreferrer"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li>
-              <a class="e-mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="contact">
+              <a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li><a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="footer-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
         </address>
       </div>
